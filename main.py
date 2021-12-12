@@ -9,7 +9,7 @@ LONG_REST_TIME = 10
 repts = 0
 root = Tk()
 root.config(padx=80,pady=80,bg=BG)
-root.title('Learn pattern')
+root.title('Learn Time')
 def start_count():
     global repts
     repts += 1
