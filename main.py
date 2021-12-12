@@ -15,7 +15,7 @@ def start_count():
     repts += 1
     if repts % 2 == 0:    
         count_down(SHORT_REST_TIME*60)
-        timer_label.config(text='short Rest time')
+        timer_label.config(text='Short rest time')
         canvas.config(bg='green')
         
     elif repts % 8 ==0 :
