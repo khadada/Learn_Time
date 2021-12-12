@@ -24,7 +24,7 @@ def start_count():
         canvas.config(bg='green')
     else:
         count_down(WORK_TIME_MINS*60)
-        timer_label.config(text='Time to work')
+        timer_label.config(text='Learing time ')
         canvas.config(bg='red')
 
 def count_down(counter):
